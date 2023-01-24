@@ -14,14 +14,14 @@ export default {
         sourcemap: true,
     },
     plugins: [
-        babel({
-            exclude: 'node_modules/**'
-        }),
         nodeResolve({
             extensions: ['.js', '.ts']
         }),
         ts({
             tsconfig: path.resolve(__dirname, 'tsconfig.json')
+        }),
+        babel({
+            exclude: 'node_modules/**'
         }),
         terser(),
     ]
