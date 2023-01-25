@@ -48,4 +48,3 @@ emitter.emit("test", 1, 2, 3, 4);
 console.log(emitter.events);
 console.log(testemitter.events);
 // console.log(1);
-//# sourceMappingURL=index.js.map

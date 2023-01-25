@@ -5,6 +5,8 @@
 使用方式：
 
 `npm i hao-events`
+或
+`yarn add hao-events`
 
 ```js
 import HaoEvents from "hao-events";
