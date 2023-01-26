@@ -1,4 +1,4 @@
-import HaoEvents from "../dist/HaoEvents";
+import HaoEvents from "../../dist/HaoEvents";
 // const HaoEvents = require("../dist/HaoEvents")
 
 const emitter = HaoEvents()

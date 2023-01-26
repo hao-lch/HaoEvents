@@ -1,5 +1,5 @@
 // import HaoEvents from "../dist/HaoEvents";
-const HaoEvents = require("../dist/HaoEvents")
+const HaoEvents = require("../../dist/HaoEvents")
 const emitter = HaoEvents();
 const testemitter = HaoEvents();
 function log1(a) {
